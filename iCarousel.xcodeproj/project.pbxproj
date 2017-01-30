@@ -7,25 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C77674227803907F0B254DE /* Pods_iCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40955140ADB7A39F4923E3CF /* Pods_iCarousel.framework */; };
 		CEEE22371E3CB6CD00A2B68E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE22361E3CB6CD00A2B68E /* main.m */; };
 		CEEE223A1E3CB6CD00A2B68E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE22391E3CB6CD00A2B68E /* AppDelegate.m */; };
-		CEEE223D1E3CB6CD00A2B68E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE223C1E3CB6CD00A2B68E /* ViewController.m */; };
 		CEEE22401E3CB6CD00A2B68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEE223E1E3CB6CD00A2B68E /* Main.storyboard */; };
 		CEEE22421E3CB6CD00A2B68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22411E3CB6CD00A2B68E /* Assets.xcassets */; };
 		CEEE22451E3CB6CD00A2B68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22431E3CB6CD00A2B68E /* LaunchScreen.storyboard */; };
+		CEEE224E1E3CB81700A2B68E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE224D1E3CB81700A2B68E /* TableViewController.m */; };
+		CEEE22511E3CB83300A2B68E /* TableViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE22501E3CB83300A2B68E /* TableViewView.m */; };
+		CEEE22541E3CB84600A2B68E /* TableiViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE22531E3CB84600A2B68E /* TableiViewCell.m */; };
+		CEEE22571E3CB85F00A2B68E /* TableViewCellOther.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE22561E3CB85F00A2B68E /* TableViewCellOther.m */; };
+		CEEE22621E3CBCBF00A2B68E /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22581E3CBCBF00A2B68E /* 01.png */; };
+		CEEE22631E3CBCBF00A2B68E /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22591E3CBCBF00A2B68E /* 02.png */; };
+		CEEE22641E3CBCBF00A2B68E /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE225A1E3CBCBF00A2B68E /* 03.png */; };
+		CEEE22651E3CBCBF00A2B68E /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE225B1E3CBCBF00A2B68E /* 04.png */; };
+		CEEE22661E3CBCBF00A2B68E /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE225C1E3CBCBF00A2B68E /* 05.png */; };
+		CEEE22671E3CBCBF00A2B68E /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE225D1E3CBCBF00A2B68E /* 06.png */; };
+		CEEE22681E3CBCBF00A2B68E /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE225E1E3CBCBF00A2B68E /* 07.png */; };
+		CEEE22691E3CBCBF00A2B68E /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE225F1E3CBCBF00A2B68E /* 08.png */; };
+		CEEE226A1E3CBCBF00A2B68E /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22601E3CBCBF00A2B68E /* 09.png */; };
+		CEEE226B1E3CBCBF00A2B68E /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22611E3CBCBF00A2B68E /* 10.png */; };
+		CEEE22741E3F29F200A2B68E /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE22731E3F29F200A2B68E /* NSObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18922A9CCF9DF56C3318CF73 /* Pods-iCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCarousel.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCarousel/Pods-iCarousel.release.xcconfig"; sourceTree = "<group>"; };
+		40955140ADB7A39F4923E3CF /* Pods_iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28B29F7E13704E891825BE6 /* Pods-iCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCarousel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCarousel/Pods-iCarousel.debug.xcconfig"; sourceTree = "<group>"; };
 		CEEE22321E3CB6CD00A2B68E /* iCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEE22361E3CB6CD00A2B68E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEEE22381E3CB6CD00A2B68E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEEE22391E3CB6CD00A2B68E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEEE223B1E3CB6CD00A2B68E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEEE223C1E3CB6CD00A2B68E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEEE223F1E3CB6CD00A2B68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEEE22411E3CB6CD00A2B68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEE22441E3CB6CD00A2B68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEE22461E3CB6CD00A2B68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEE224C1E3CB81700A2B68E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CEEE224D1E3CB81700A2B68E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CEEE224F1E3CB83300A2B68E /* TableViewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewView.h; sourceTree = "<group>"; };
+		CEEE22501E3CB83300A2B68E /* TableViewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewView.m; sourceTree = "<group>"; };
+		CEEE22521E3CB84600A2B68E /* TableiViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableiViewCell.h; sourceTree = "<group>"; };
+		CEEE22531E3CB84600A2B68E /* TableiViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableiViewCell.m; sourceTree = "<group>"; };
+		CEEE22551E3CB85F00A2B68E /* TableViewCellOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellOther.h; sourceTree = "<group>"; };
+		CEEE22561E3CB85F00A2B68E /* TableViewCellOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellOther.m; sourceTree = "<group>"; };
+		CEEE22581E3CBCBF00A2B68E /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		CEEE22591E3CBCBF00A2B68E /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		CEEE225A1E3CBCBF00A2B68E /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		CEEE225B1E3CBCBF00A2B68E /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		CEEE225C1E3CBCBF00A2B68E /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		CEEE225D1E3CBCBF00A2B68E /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		CEEE225E1E3CBCBF00A2B68E /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		CEEE225F1E3CBCBF00A2B68E /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		CEEE22601E3CBCBF00A2B68E /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		CEEE22611E3CBCBF00A2B68E /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		CEEE22721E3F29F200A2B68E /* NSObject.h */ = {isa = PBXFileReference; explicitFileType = text.script.python; fileEncoding = 4; path = NSObject.h; sourceTree = "<group>"; };
+		CEEE22731E3F29F200A2B68E /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C77674227803907F0B254DE /* Pods_iCarousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E76263626118FBB4E0EE01C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B28B29F7E13704E891825BE6 /* Pods-iCarousel.debug.xcconfig */,
+				18922A9CCF9DF56C3318CF73 /* Pods-iCarousel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CEEE22291E3CB6CD00A2B68E = {
 			isa = PBXGroup;
 			children = (
 				CEEE22341E3CB6CD00A2B68E /* iCarousel */,
 				CEEE22331E3CB6CD00A2B68E /* Products */,
+				1E76263626118FBB4E0EE01C /* Pods */,
+				F95576C2AF3D23FAF5FFC024 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +106,23 @@
 		CEEE22341E3CB6CD00A2B68E /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				CEEE22721E3F29F200A2B68E /* NSObject.h */,
+				CEEE22731E3F29F200A2B68E /* NSObject.m */,
 				CEEE22381E3CB6CD00A2B68E /* AppDelegate.h */,
 				CEEE22391E3CB6CD00A2B68E /* AppDelegate.m */,
-				CEEE223B1E3CB6CD00A2B68E /* ViewController.h */,
-				CEEE223C1E3CB6CD00A2B68E /* ViewController.m */,
 				CEEE223E1E3CB6CD00A2B68E /* Main.storyboard */,
+				CEEE224C1E3CB81700A2B68E /* TableViewController.h */,
+				CEEE224D1E3CB81700A2B68E /* TableViewController.m */,
+				CEEE224F1E3CB83300A2B68E /* TableViewView.h */,
+				CEEE22501E3CB83300A2B68E /* TableViewView.m */,
+				CEEE22521E3CB84600A2B68E /* TableiViewCell.h */,
+				CEEE22531E3CB84600A2B68E /* TableiViewCell.m */,
+				CEEE22551E3CB85F00A2B68E /* TableViewCellOther.h */,
+				CEEE22561E3CB85F00A2B68E /* TableViewCellOther.m */,
 				CEEE22411E3CB6CD00A2B68E /* Assets.xcassets */,
 				CEEE22431E3CB6CD00A2B68E /* LaunchScreen.storyboard */,
 				CEEE22461E3CB6CD00A2B68E /* Info.plist */,
+				CEEE22711E3E8DAE00A2B68E /* Images */,
 				CEEE22351E3CB6CD00A2B68E /* Supporting Files */,
 			);
 			path = iCarousel;
@@ -79,6 +136,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CEEE22711E3E8DAE00A2B68E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE22581E3CBCBF00A2B68E /* 01.png */,
+				CEEE22591E3CBCBF00A2B68E /* 02.png */,
+				CEEE225A1E3CBCBF00A2B68E /* 03.png */,
+				CEEE225B1E3CBCBF00A2B68E /* 04.png */,
+				CEEE225C1E3CBCBF00A2B68E /* 05.png */,
+				CEEE225D1E3CBCBF00A2B68E /* 06.png */,
+				CEEE225E1E3CBCBF00A2B68E /* 07.png */,
+				CEEE225F1E3CBCBF00A2B68E /* 08.png */,
+				CEEE22601E3CBCBF00A2B68E /* 09.png */,
+				CEEE22611E3CBCBF00A2B68E /* 10.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F95576C2AF3D23FAF5FFC024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40955140ADB7A39F4923E3CF /* Pods_iCarousel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEEE22491E3CB6CD00A2B68E /* Build configuration list for PBXNativeTarget "iCarousel" */;
 			buildPhases = (
+				BB1F124B9D1591803B75D5F4 /* [CP] Check Pods Manifest.lock */,
 				CEEE222E1E3CB6CD00A2B68E /* Sources */,
 				CEEE222F1E3CB6CD00A2B68E /* Frameworks */,
 				CEEE22301E3CB6CD00A2B68E /* Resources */,
+				6008EA648109C4F4D03FAED1 /* [CP] Embed Pods Frameworks */,
+				EBC9B3C31D37A7867153F1F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,22 +222,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEE226B1E3CBCBF00A2B68E /* 10.png in Resources */,
+				CEEE22681E3CBCBF00A2B68E /* 07.png in Resources */,
+				CEEE22631E3CBCBF00A2B68E /* 02.png in Resources */,
+				CEEE22691E3CBCBF00A2B68E /* 08.png in Resources */,
 				CEEE22451E3CB6CD00A2B68E /* LaunchScreen.storyboard in Resources */,
 				CEEE22421E3CB6CD00A2B68E /* Assets.xcassets in Resources */,
+				CEEE22621E3CBCBF00A2B68E /* 01.png in Resources */,
+				CEEE22671E3CBCBF00A2B68E /* 06.png in Resources */,
+				CEEE22651E3CBCBF00A2B68E /* 04.png in Resources */,
+				CEEE22641E3CBCBF00A2B68E /* 03.png in Resources */,
+				CEEE22661E3CBCBF00A2B68E /* 05.png in Resources */,
+				CEEE226A1E3CBCBF00A2B68E /* 09.png in Resources */,
 				CEEE22401E3CB6CD00A2B68E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6008EA648109C4F4D03FAED1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCarousel/Pods-iCarousel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1F124B9D1591803B75D5F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC9B3C31D37A7867153F1F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCarousel/Pods-iCarousel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEEE222E1E3CB6CD00A2B68E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEE223D1E3CB6CD00A2B68E /* ViewController.m in Sources */,
+				CEEE22571E3CB85F00A2B68E /* TableViewCellOther.m in Sources */,
+				CEEE22541E3CB84600A2B68E /* TableiViewCell.m in Sources */,
+				CEEE22511E3CB83300A2B68E /* TableViewView.m in Sources */,
 				CEEE223A1E3CB6CD00A2B68E /* AppDelegate.m in Sources */,
+				CEEE224E1E3CB81700A2B68E /* TableViewController.m in Sources */,
 				CEEE22371E3CB6CD00A2B68E /* main.m in Sources */,
+				CEEE22741E3F29F200A2B68E /* NSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +415,10 @@
 		};
 		CEEE224A1E3CB6CD00A2B68E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28B29F7E13704E891825BE6 /* Pods-iCarousel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iCarousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eyupcimen.iCarousel;
@@ -279,8 +428,10 @@
 		};
 		CEEE224B1E3CB6CD00A2B68E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18922A9CCF9DF56C3318CF73 /* Pods-iCarousel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iCarousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eyupcimen.iCarousel;
@@ -307,6 +458,7 @@
 				CEEE224B1E3CB6CD00A2B68E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
