@@ -27,7 +27,6 @@
 		CEEE22691E3CBCBF00A2B68E /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE225F1E3CBCBF00A2B68E /* 08.png */; };
 		CEEE226A1E3CBCBF00A2B68E /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22601E3CBCBF00A2B68E /* 09.png */; };
 		CEEE226B1E3CBCBF00A2B68E /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE22611E3CBCBF00A2B68E /* 10.png */; };
-		CEEE22741E3F29F200A2B68E /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE22731E3F29F200A2B68E /* NSObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,8 +59,6 @@
 		CEEE225F1E3CBCBF00A2B68E /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
 		CEEE22601E3CBCBF00A2B68E /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
 		CEEE22611E3CBCBF00A2B68E /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
-		CEEE22721E3F29F200A2B68E /* NSObject.h */ = {isa = PBXFileReference; explicitFileType = text.script.python; fileEncoding = 4; path = NSObject.h; sourceTree = "<group>"; };
-		CEEE22731E3F29F200A2B68E /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +103,6 @@
 		CEEE22341E3CB6CD00A2B68E /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				CEEE22721E3F29F200A2B68E /* NSObject.h */,
-				CEEE22731E3F29F200A2B68E /* NSObject.m */,
 				CEEE22381E3CB6CD00A2B68E /* AppDelegate.h */,
 				CEEE22391E3CB6CD00A2B68E /* AppDelegate.m */,
 				CEEE223E1E3CB6CD00A2B68E /* Main.storyboard */,
@@ -299,7 +294,6 @@
 				CEEE223A1E3CB6CD00A2B68E /* AppDelegate.m in Sources */,
 				CEEE224E1E3CB81700A2B68E /* TableViewController.m in Sources */,
 				CEEE22371E3CB6CD00A2B68E /* main.m in Sources */,
-				CEEE22741E3F29F200A2B68E /* NSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
